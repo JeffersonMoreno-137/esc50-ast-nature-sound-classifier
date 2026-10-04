@@ -1,0 +1,44 @@
+# Python Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Training Outputs and Model Checkpoints
+results_ast_nature/
+checkpoints/
+runs/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Hugging Face and Datasets cache
+.cache/
+data/cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# System and IDE Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
